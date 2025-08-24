@@ -1,0 +1,36 @@
+/* Remove default list style */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Style for sub-item links */
+.sub-item-link {
+  text-decoration: none;       /* Remove underline */
+  color: blue;                 /* Default link color */
+  transition: color 0.3s ease, outline 0.3s ease;
+}
+
+/* Visited state */
+.sub-item-link:visited {
+  color: purple;
+}
+
+/* Hover state */
+.sub-item-link:hover {
+  color: green;
+}
+
+/* Focus state */
+.sub-item-link:focus {
+  outline: 2px solid orange;
+  outline-offset: 3px;
+}
+
+/* Active (clicked) state */
+.sub-item-link:active {
+  color: red;
+}
+
+
+/* ** end of styles.css ** */
