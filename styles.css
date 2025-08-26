@@ -1,21 +1,30 @@
 /* Remove default list style */
+.wrapper{
+  display: flex;
+  overflow-x: hidden;
+  text-align: center;
+}
 
 .to{
-  height:200px;
-  width: 200px;
+  /* height:10px; */
+  width: 1200px;
   background-color: antiquewhite;
   margin: 20px;
   padding: 200px;
+  
+  
+ 
 }
 ul {
   list-style-type: none;
   padding-left: 0;
+  
 }
 
 /* Style for sub-item links */
 .sub-item-link {
   text-decoration: none;       /* Remove underline */
-  color: blue;                 /* Default link color */
+  color: rgb(20, 84, 211);                 /* Default link color */
   transition: color 0.3s ease, outline 0.3s ease;
 }
 
@@ -26,7 +35,7 @@ ul {
 
 /* Hover state */
 .sub-item-link:hover {
-  color: green;
+  color: rgb(251, 31, 167);
 }
 
 /* Focus state */
@@ -40,5 +49,9 @@ ul {
   color: red;
 }
 
+/* .todo-list{
+  margin-top: 155px;
+  padding: 20px;
+} */
 
 /* ** end of styles.css ** */
