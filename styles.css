@@ -1,7 +1,7 @@
 /* Remove default list style */
-*{
+/* *{
 
-}
+} */
 .wrapper{
   display: flex;
   overflow-x: hidden;
