@@ -1,8 +1,12 @@
 /* Remove default list style */
+*{
+
+}
 .wrapper{
   display: flex;
   overflow-x: hidden;
   text-align: center;
+    /* background-image: linear-gradient(to right,rgb(180, 251, 234) ,rgb(222, 255, 251)); */
 }
 
 .to{
@@ -11,6 +15,7 @@
   background-color: antiquewhite;
   margin: 20px;
   padding: 200px;
+  background-image: linear-gradient(to right,rgb(168, 253, 233),rgb(255, 213, 220) ,rgb(136, 215, 248));
   
   
  
@@ -24,7 +29,7 @@ ul {
 /* Style for sub-item links */
 .sub-item-link {
   text-decoration: none;       /* Remove underline */
-  color: rgb(20, 84, 211);                 /* Default link color */
+  color: rgb(7, 215, 252);                 /* Default link color */
   transition: color 0.3s ease, outline 0.3s ease;
 }
 
@@ -35,7 +40,9 @@ ul {
 
 /* Hover state */
 .sub-item-link:hover {
-  color: rgb(251, 31, 167);
+  color: rgb(7, 241, 23);
+  transform:scale(1.1);
+  
 }
 
 /* Focus state */
@@ -47,11 +54,15 @@ ul {
 /* Active (clicked) state */
 .sub-item-link:active {
   color: red;
+  
 }
 
-/* .todo-list{
-  margin-top: 155px;
+.todo-list{
+  /* margin-top: 155px; */
   padding: 20px;
-} */
+    background-color: rgb(250, 91, 91);
+
+}
+
 
 /* ** end of styles.css ** */
