@@ -1,19 +1,28 @@
 /* Remove default list style */
-/* *{
+ *{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
 
-} */
+} 
 .wrapper{
   display: flex;
   overflow-x: hidden;
   text-align: center;
-    /* background-image: linear-gradient(to right,rgb(180, 251, 234) ,rgb(222, 255, 251)); */
+  justify-content: center;
+  position: relative;
+ 
+  background-image: linear-gradient(to right,rgb(252, 133, 133),rgb(141, 255, 141),rgb(191, 191, 255));
 }
 
 .to{
   /* height:10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1200px;
   background-color: antiquewhite;
-  margin: 20px;
+  margin: 50px;
   padding: 200px;
   background-image: linear-gradient(to right,rgb(168, 253, 233),rgb(255, 213, 220) ,rgb(136, 215, 248));
   
@@ -23,6 +32,7 @@
 ul {
   list-style-type: none;
   padding-left: 0;
+ 
   
 }
 
@@ -63,6 +73,9 @@ ul {
     background-color: rgb(250, 91, 91);
 
 }
+/* .wrapper{
+  background-image: linear-gradient(ro right,red ,green, blue);
+} */
 
 
 /* ** end of styles.css ** */
