@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1200px;
+  /* width: 1200px; */
   background-color: antiquewhite;
   margin: 50px;
   padding: 200px;
@@ -32,20 +32,23 @@
 ul {
   list-style-type: none;
   padding-left: 0px;
+  background-image:linear-gradient(to right,rgb(136, 215, 248)20%,rgb(255, 213, 220)80%);
+  
  
   
 }
 
 /* Style for sub-item links in this class */
-.sub-item-link {
+/* .sub-item-link {
   text-decoration: none;       /* Remove underline */
-  color: rgb(7, 215, 252);                 /* Default link color */
-  transition: color 0.3s ease, outline 0.3s ease;
-}
+  /* color: rgb(27, 221, 255);              /*    Default link color */
+  /* transition: color 0.3s ease, outline 0.3s ease; */ */
+
+ */
 
 /* Visited state */
 .sub-item-link:visited {
-  color: purple;
+  color: rgb(255, 174, 255);
 }
 
 /* Hover state */
@@ -63,7 +66,7 @@ ul {
 
 /* Active (clicked) state */
 .sub-item-link:active {
-  color: red;
+  color: rgb(205, 38, 38);
   
 }
 
